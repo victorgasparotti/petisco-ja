@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}\\app.c",
+        "-I",
+        "C:\\msys64\\ucrt64\\include",
+        "-I",
+        "C:\\msys64\\ucrt64\\include\\mariadb",
+        "-o",
+        "${workspaceFolder}\\app.exe",
+        "-L",
+        "C:\\msys64\\ucrt64\\lib",
+        "-lmariadb",
+        "-lws2_32"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "PATH": "C:\\msys64\\ucrt64\\bin;C:\\msys64\\usr\\bin;${env:PATH}"
+        }
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+    }
+  ]
+}
