@@ -1,8 +1,8 @@
-# 🍔 Petisco Já
+# 🥗 Petisco Já
 
-Sistema de gerenciamento para uma lanchonete, desenvolvido em **linguagem C** com integração ao **MySQL**.
+Sistema de gerenciamento para um negócio de alimentação saudável, desenvolvido em **linguagem C** com integração ao **MySQL**.
 
-O projeto tem como objetivo facilitar o gerenciamento de clientes, produtos, pedidos e estoque, centralizando as principais operações de uma lanchonete em um único sistema.
+O projeto tem como objetivo facilitar o gerenciamento de clientes, produtos, pedidos e estoque, auxiliando na organização das operações de um estabelecimento especializado em comidas saudáveis.
 
 ## 🚀 Funcionalidades
 
@@ -13,12 +13,20 @@ O projeto tem como objetivo facilitar o gerenciamento de clientes, produtos, ped
 - Excluir clientes.
 - Gerenciar endereços.
 
-### 🍟 Gerenciamento de produtos
-- Cadastrar produtos.
+### 🥑 Gerenciamento de produtos
+- Cadastrar refeições e alimentos saudáveis.
 - Consultar produtos disponíveis.
 - Atualizar informações dos produtos.
 - Excluir produtos.
 - Organizar produtos por categorias.
+
+Exemplos de produtos:
+- Saladas.
+- Bowls saudáveis.
+- Refeições fitness.
+- Sucos naturais.
+- Sanduíches naturais.
+- Sobremesas saudáveis.
 
 ### 🛒 Gerenciamento de pedidos
 - Registrar pedidos.
@@ -35,9 +43,9 @@ O projeto tem como objetivo facilitar o gerenciamento de clientes, produtos, ped
 - Baixa automática de estoque conforme a confirmação dos pedidos.
 
 ### 📋 Ficha técnica
-- Relacionar produtos aos seus respectivos insumos.
-- Definir a quantidade de cada insumo utilizada na produção.
-- Controlar o consumo de materiais.
+- Relacionar produtos aos seus respectivos ingredientes.
+- Definir a quantidade de cada ingrediente utilizada na preparação.
+- Controlar o consumo de matérias-primas.
 
 ### 📊 Relatórios
 - Relatórios de faturamento.
@@ -71,15 +79,13 @@ Também são utilizados relacionamentos entre tabelas, transações e trigger pa
 
 - Linguagem C
 - MySQL 8
-- Biblioteca MariaDB Connector/C
+- MariaDB Connector/C
 - Visual Studio Code
 - GCC (MinGW/MSYS2)
 
 ## ⚙️ Como executar o projeto
 
 ### 1. Pré-requisitos
-
-Antes de executar, é necessário ter:
 
 - Windows.
 - MySQL 8 instalado e configurado.
@@ -89,7 +95,7 @@ Antes de executar, é necessário ter:
 
 ### 2. Configurar a senha do banco
 
-No CMD do Windows, configure a variável de ambiente:
+No CMD do Windows:
 
 ```cmd
 set PETISCO_DB_PASSWORD=sua_senha
@@ -99,51 +105,19 @@ Substitua `sua_senha` pela senha do seu MySQL.
 
 ### 3. Compilar o projeto
 
-Abra o projeto no Visual Studio Code e pressione:
-
-`Ctrl + Shift + B`
-
-Selecione a tarefa de compilação configurada para gerar o arquivo `main.exe`.
+Abra o projeto no Visual Studio Code e pressione `Ctrl + Shift + B`, selecionando a tarefa de compilação configurada.
 
 ### 4. Executar pelo CMD
 
-Abra o Prompt de Comando na pasta do projeto e execute:
+Na pasta do projeto, execute:
 
 ```cmd
 main.exe
 ```
 
-### 5. Executar automaticamente
+### 5. Inicialização automática
 
-Para facilitar a inicialização, é possível utilizar um arquivo `executar.bat` na mesma pasta do `main.exe`.
-
-Conteúdo do arquivo:
-
-```bat
-@echo off
-title Petisco Ja
-cd /d "%~dp0"
-main.exe
-pause
-```
-
-Assim, basta abrir o `executar.bat` para iniciar o sistema pelo CMD.
-
-## 📁 Estrutura do projeto
-
-```text
-petisco-ja/
-│
-├── main.c
-├── main.exe
-├── executar.bat
-├── README.md
-│
-└── .vscode/
-    └── tasks.json
-```
-
-*Os arquivos e diretórios podem variar conforme a configuração local do projeto.*
+Também é possível utilizar o arquivo `executar.bat`, localizado na mesma pasta do `main.exe`, para iniciar o programa automaticamente pelo CMD.
 
 ## 🎯 Objetivo acadêmico
 
@@ -169,4 +143,4 @@ GitHub: [@victorgasparotti](https://github.com/victorgasparotti)
 
 ---
 
-**Petisco Já — Gerenciando sua lanchonete de forma simples e organizada!** 🍔
+**Petisco Já — Praticidade e organização para uma alimentação mais saudável!** 🥗
