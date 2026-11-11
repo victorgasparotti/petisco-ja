@@ -135,9 +135,9 @@ O desenvolvimento busca aplicar conhecimentos de:
 
 ## 👨‍💻 Desenvolvedor
 
-**Victor Gasparotti**
+**Victor Gasparotti** e **João Vitor Alves de Souza**
 
-Estudante de Análise e Desenvolvimento de Sistemas.
+Estudantes de Análise e Desenvolvimento de Sistemas.
 
 GitHub: [@victorgasparotti](https://github.com/victorgasparotti)
 
