@@ -3,20 +3,16 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "C/C++: gcc.exe build active file",
+      "label": "Petisco Ja: compilar main.c",
       "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
       "args": [
         "-fdiagnostics-color=always",
         "-g",
-        "${workspaceFolder}\\app.c",
-        "-I",
-        "C:\\msys64\\ucrt64\\include",
-        "-I",
-        "C:\\msys64\\ucrt64\\include\\mariadb",
-        "-o",
-        "${workspaceFolder}\\app.exe",
-        "-L",
-        "C:\\msys64\\ucrt64\\lib",
+        "${workspaceFolder}\\main.c",
+        "-I", "C:\\msys64\\ucrt64\\include",
+        "-I", "C:\\msys64\\ucrt64\\include\\mariadb",
+        "-o", "${workspaceFolder}\\main.exe",
+        "-L", "C:\\msys64\\ucrt64\\lib",
         "-lmariadb",
         "-lws2_32"
       ],
@@ -26,14 +22,9 @@
           "PATH": "C:\\msys64\\ucrt64\\bin;C:\\msys64\\usr\\bin;${env:PATH}"
         }
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+      "problemMatcher": ["$gcc"],
+      "group": {"kind": "build", "isDefault": true},
+      "detail": "Compila o sistema Petisco Ja integrado ao MariaDB/MySQL"
     }
   ]
 }
