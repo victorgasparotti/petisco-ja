@@ -133,7 +133,7 @@ O desenvolvimento busca aplicar conhecimentos de:
 - Integração entre aplicação e banco de dados.
 - Organização e desenvolvimento de sistemas.
 
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedores
 
 **Victor Gasparotti** e **João Vitor Alves de Souza**
 
